@@ -7,5 +7,6 @@ settings = {
     'bot': 'Paimon Bot',
     'id': os.getenv('UID'),
     'prefix': '%',
-    'bot_ver': '0.0.1-alpha'
+    'bot_ver': '0.0.1-alpha',
+    'guild_ids': os.getenv('SERVER_ID')
 }
